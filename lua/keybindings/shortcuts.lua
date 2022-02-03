@@ -51,8 +51,8 @@ map('i', 'hh', '<Esc><Esc>i', {noremap = true})
 
 --visual & visual-line
 --move section (up-down)
-map('x', 'J', ':m >+1<CR>gv-gv', {noremap = true})
-map('x', 'J', ':m <-2<CR>gv-gv', {noremap = true})
+map('x', 'J', ":m '>+1<CR>gv-gv", {noremap = true})
+map('x', 'K', ":m '<-2<CR>gv-gv", {noremap = true})
 
 --indent section
 map('v', '<', '<gv', {noremap = true})
