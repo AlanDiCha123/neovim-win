@@ -60,3 +60,12 @@ map('v', '>', '>gv', {noremap = true})
 
 --exit visual
 map('v', '<Leader>;', '<Esc>', {noremap = true})
+
+
+--packer
+map('n', '<Leader>pi', ':PackerInstall<CR>', {noremap = true})
+
+
+--tree
+map('n', '<Leader>nt', ':NvimTreeToggle<CR>', {noremap = true})
+
