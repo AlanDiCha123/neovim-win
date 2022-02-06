@@ -31,6 +31,8 @@ require'nvim-web-devicons'.setup {
 -- lualine setup
 require('lualine').setup{}
 
+--colorizer setup
+require('colorizer').setup{}
 
 -- bufferline setup
 require('bufferline').setup{}
