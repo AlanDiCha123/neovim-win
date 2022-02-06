@@ -8,6 +8,6 @@ source $HOME\AppData\Local\nvim\lua\configplug\nvimtree\conf.vim
 
 luafile $HOME\AppData\Local\nvim\lua\configplug\nvimtree\tree.lua
 
-luafile $HOME\AppData\Local\nvim\lua\configplug\treesitter.lua
+luafile $HOME\AppData\Local\nvim\lua\configplug\lsp.lua
 
 luafile $HOME\AppData\Local\nvim\lua\configplug\another.lua
